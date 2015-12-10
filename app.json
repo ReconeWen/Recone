@@ -1,0 +1,47 @@
+{
+  "name": "Recone",
+  "scripts": {
+  },
+  "env": {
+    "CMS_PASS": {
+      "required": true
+    },
+    "CMS_USERNAME": {
+      "required": true
+    },
+    "GEM_PATH": {
+      "required": true
+    },
+    "LANG": {
+      "required": true
+    },
+    "PATH": {
+      "required": true
+    },
+    "RACK_ENV": {
+      "required": true
+    },
+    "RAILS_ENV": {
+      "required": true
+    },
+    "SHARED_DATABASE_URL": {
+      "required": true
+    },
+    "STRIPE_LIVE_API_KEY": {
+      "required": true
+    },
+    "STRIPE_LIVE_PUBLIC_KEY": {
+      "required": true
+    },
+    "STRIPE_TEST_API_KEY": {
+      "required": true
+    },
+    "STRIPE_TEST_PUBLIC_KEY": {
+      "required": true
+    }
+  },
+  "addons": [
+    "heroku-postgresql",
+    "mailgun"
+  ]
+}
